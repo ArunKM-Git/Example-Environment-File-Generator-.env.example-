@@ -19,14 +19,33 @@ It preserves comments and blank lines, making it easy for others to know which e
 
 ## 🛠 Usage
 
-1. Make sure you have a `.env` file in the same directory as this script.
-2. Run the script using Node.js:
+### 🧱 1. Prerequisite
+
+Make sure you have a `.env` file in the same directory as the script.
+
+### 🧪 2. Choose Your Version
+
+#### ➤ Option A: **ES Module** version (`generate.env.example.mjs`)
+
+1. Use this version if your project is set up with **ES Modules** (e.g., `"type": "module"` in `package.json`).
+
+2. Run the script with:
+
+```bash
+node generate.env.example.mjs
+```
+
+#### ➤ Option B: **CommonJS** version (`generate.env.example.js`)
+
+1. Use this version if your project uses **CommonJS** (the default in most Node.js projects).
+
+2. Run the script with:
 
 ```bash
 node generate.env.example.js
 ```
 
-3. This will generate or overwrite a `.env.example` file in the same directory.
+### This will generate or overwrite a `.env.example` file in the same directory.
 
 ## 📂 Example
 
